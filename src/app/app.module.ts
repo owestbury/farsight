@@ -10,6 +10,7 @@ import { TableComponent } from './components/table/table.component';
 import { InputComponent } from './components/input/input.component';
 import { SelectComponent } from './components/select/select.component';
 import { UploadComponent } from './components/upload/upload.component';
+import { BreadcrumbsComponent } from './components/breadcrumbs/breadcrumbs.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { UploadComponent } from './components/upload/upload.component';
     InputComponent,
     SelectComponent,
     UploadComponent,
+    BreadcrumbsComponent,
   ],
   imports: [
     BrowserModule,
