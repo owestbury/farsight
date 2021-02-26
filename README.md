@@ -1,6 +1,6 @@
-# FarsightConsulting
+# Farsight Technical Assessment
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.2.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
 
 ## Development server
 
@@ -25,3 +25,18 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Localhost - Building and running with libs display via http://localhost:4200/
+Install Locally
+npm install
+- install all packages by running `yarn install`
+- run 'ng serve' or 'yarn start'
+
+View demo: http://localhost:4200 
+
+## Components list:
+Input
+Select
+Textarea
+Button
+Table

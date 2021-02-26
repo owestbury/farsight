@@ -1,13 +1,28 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>FarsightConsulting</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Farsight Consulting - Example - GOV.UK</title>
   <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="/styles.scss">
+  <!--[if !IE 8]><!-->
+  <link rel="stylesheet" href="/assets/stylesheets/govuk-frontend-3.11.0.min.css">
+  <!--<![endif]-->
+  <!--[if IE 8]>
+  <link rel="stylesheet" href="/assets/stylesheets/govuk-frontend-ie8-3.11.0.min.css">
+  <![endif]-->
 </head>
 <body>
+  <script>
+    document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');
+  </script>
+  <!-- component HTML -->
+
   <app-root></app-root>
+  <script src="/assets/javascript/govuk.js"></script>
+  <script>
+    window.GOVUKFrontend.initAll()
+  </script>
 </body>
 </html>
